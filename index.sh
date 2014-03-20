@@ -10,16 +10,25 @@ snippet() {
   source=$(eval echo \$$(echo $line | cut -d ' ' -f 2))
   date=$(echo $line | cut -d ' ' -f 3)
   title=$(echo $line | cut -d ' ' -f 4-)
-
-  cat <<-EOF
-  <li>
-  ${source}, ${date}: <a href="${fbase}.html">${title}</a>
-  (
-  <a href="${fbase}.png">Image</a>, 
-  <a href="${fbase}.txt">Plain text</a>, 
-  )
-  </li>
+  
+  if [ -f ${fbase}.html ]
+  then
+    cat <<-EOF
+    <li>
+    ${source}, ${date}: <a href="${fbase}.html">${title}</a>
+    (
+    <a href="${fbase}.png">Image</a>, 
+    <a href="${fbase}.txt">Plain text</a>, 
+    )
+    </li>
 EOF
+  else
+    cat <<-EOF
+    <li>
+    ${source}, ${date}: <a href="${fbase}.png">${title}</a>
+    </li>
+EOF
+  fi
 }
 
 cat <<-EOF

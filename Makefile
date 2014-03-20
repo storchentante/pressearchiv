@@ -28,7 +28,7 @@ html: $(HTML)
 %.html: %.rtf
 	unrtf --html $< > $@
 
-index.html: index.sh
+index.html: index.sh $(HTML) $(PNG)
 	./index.sh > $@
 
 clean:
