@@ -1,0 +1,61 @@
+E = Express
+FR = Frankfurter Rundschau
+GA = Gießener Anzeiger
+GAZ = Giessener Allgemeine > <, gesperrter Ort
+GT = Göttinger Tageblatt
+LE = Leben und Erziehen
+SM = Sonntagmorgen Magazin
+SZ = Siegener Zeitung
+I = Image, Stadtillustrierte für Giessen, Marburg, Wetzlar
+KA = Kreis-Anzeiger
+20030719 GAZ, 19.07.2003 Zwei "Sparschweine" auf dem Weg nach Berlin
+20010825 GA, 25.08.2001, S. 60 Serie über Gießen
+20010210 GA, 10.02.2001, S. 11 Lokalteil, Foto
+20010209 GAZ, 09.02.2001, S. 33 Zwischen Lebensbeginn und Tod ...
+20000919 GAZ, 19.09.2000, S. 26 Beim 15. Geburtstag war auch "Nr. 1" zu Gast
+20000918 GA, 18.09.2000, S. 26 "Dieses Geburtsdatum werde ich nie im Leben vergessen"
+20000103 GA, 03.01.2000, S. 17 Das Wunder des Alltäglichen
+19991226 SM, 26.12.1999, S. 2A Mit dem Millenniumsbaby wirds wohl in vielen Fällen nichts!
+19990507 GAZ, 07.05.1999, S. 27 Hebammen stellten Beruf vor
+19980710 GA, 10.07.1998, S. 14 Wie ich geboren werde, so lebe ich
+19980404 GAZ, 04.04.1998, S. 30 Erstes Rödgener Wannenkind heißt Leonhard
+19960419 GA, 19.04.1996, S. 24 Tod zu jedem Zeitpunkt des Lebens präsent
+19930512 GA, 12.05.1993, S. 33 Hebammen haben immer eine Schulter zum Anlehnen
+19930415 GA, 15.04.1993, S. 22 "Denn das Leben braucht einen guten Anfang"
+19930102 GAZ, 02.01.1993 Erstes Kind 1993
+19930102a GA, 02.01.1993, S. 31 Erstes Kind 1993
+19920617 GAZ, 17.06.1992 Kolumne, Polizei-Eskorte
+19920406 FR, 06.04.1992 Frauen aller Schichten sollen Ort der Geburt frei wählen können
+19920406a GAZ, 06.04.1992 Grauslige Weiber ließen die Fetzen fliegen
+19920406b GT, 06.04.1992 Hebammen contra Ärzte
+19920406c SZ, 06.04.1992 Gegen "technisierte Klinikgeburt"
+19920404 GAZ, 04.04.1992 Votum für die Wahlfreiheit bei der Entbindung
+19920404a GA, 04.04.1992 Natürliche Entbindung zu Hause: Abenteuer oder Alternative?
+19920329 SM, 29.03.1992 "Aus eigener Kraft gebären?"
+19920320 GAZ, 20.03.1992 Internationale Tagung: "Gebären aus eigener Kraft"
+19920320a GA, 20.03.1992 "Gebären aus eigener Kraft": Eine Tagung stellt Geburtsmedizin in Frage
+1992-4 LE, 4/1992, S. 22 - 24 Zur Geburt in den Pfarrhof
+1992-11 E, November 1992, S. 4/5 Adveniat!
+1991-5 I, Mai 1991, S. 4,5,34 Der Baby-Bahnhof 
+19901109 GA, 09.11.1990, S. 29 "Auch ein Säugling wirkt aktiv auf die Umwelt ein
+19900528 GA, 28.05.1990 Drei Tage lang wurde das Thema Geburt diskutiert
+19900528a GAZ, 28.05.1990 Geburtshilfe: 245 DM brutto für die Hebamme
+1990 GAZ, 1990 1990 ist Protestjahr der Hebammen - auch in Gießen
+19871027 GA, 27.10.1987 Wo der Arzt was nähen muß, war auch eine Messerstecherei ...
+19870812L GAZ, 12.08.1987 Leider totes Kind, Leserbrief
+19870810 GA, 10.08.1987, S. 10 Unterstützung für das Entbindungsheim
+19851119 GA, 19.11.1985 Mit Scheinwerfern, Mikrofonen ...
+19851023 KA, 23.10.1985, S. 14 Werdende Mütter wollen nicht mehr in sterile Kliniken
+19850914 GAZ, 14.09.1985 "Kaiserschnitt muß jederzeit möglich sein"
+19850912 GAZ, 12.09.1985 Entbindungsheime nicht im Bettenbedarfsplan
+19850831 GAZ, 31.08.1985 "Eine Geburt ist doch etwas Schönes"
+19850727 GAZ, 27.07.1985, S. 27 Wo bleibt die Sicherheit für Mutter und Kind?
+19850725 GA, 25.07.1985 Zum zweiten Mal Nachwuchs ...
+19850725a GAZ, 25.07.1985 "Unser Prachtkerl wird Jonathan heißen"
+19850703 GAZ, 03.07.1985 Entbindungsheim in Rödgen eröffnet
+19850702 GA, 02.07.1985 "Wenn Wehen einsetzen, muß man nur klingeln"
+19850615 GAZ, 15.06.1985, S. 17 Dorfbild mit baulicher Phantasie verschönern
+19850614 GA, 14.06.1985 Ehemalige Pfarrscheune wird zum Entbindungsheim
+1985-12 E, Dezember 1985, S. 4/5 "Das größte ärztliche Wissen hat nicht verhindert, daß Kinder spontan zur Welt kommen."
+19831022 GA, 22.10.1983 Auf Krankenhaus-Hebammen kann nicht verzichtet werden
+1982 GAZ, 1982 Über dreihundert wollten Hebamme werden ...
