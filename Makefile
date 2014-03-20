@@ -6,7 +6,7 @@ JPG=$(PSD:%.psd=%.jpg)
 TXT=$(RTF:%.rtf=%.txt)
 HTML=$(RTF:%.rtf=%.html)
 
-all: png jpg txt html
+all: png jpg txt html index.html
 
 png: $(PNG)
 
@@ -28,7 +28,14 @@ html: $(HTML)
 %.html: %.rtf
 	unrtf --html $< > $@
 
+index.html: index.sh
+	./index.sh > $@
+
 clean:
-	rm -f $(PNG) $(JPG) $(TXT) $(HTML)
+	rm -f $(PNG)
+	rm -f $(JPG)
+	rm -f $(TXT)
+	rm -f $(HTML)
+	rm -f index.html
 
 .PHONY: png jpg txt html clean
