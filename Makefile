@@ -37,7 +37,7 @@ dest/%: content/%
 %.html: %.rtf
 	unrtf --html $< > $@
 
-dest/index.html: index.sh $(DEST_HTML) $(DEST_PNG)
+dest/index.html: index.sh index.txt $(DEST_HTML) $(DEST_PNG)
 	mkdir -p dest/
 	./index.sh > $@
 

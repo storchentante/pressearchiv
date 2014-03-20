@@ -18,7 +18,7 @@ snippet() {
     ${source}, ${date}: <a href="${fbase}.html">${title}</a>
     (
     <a href="${fbase}.png">Image</a>, 
-    <a href="${fbase}.txt">Plain text</a>, 
+    <a href="${fbase}.txt">Plain text</a>
     )
     </li>
 EOF
