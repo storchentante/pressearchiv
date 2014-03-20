@@ -23,7 +23,7 @@ html: $(HTML)
 	convert $< -flatten $@
 
 %.txt: %.rtf
-	unrtf --text $< | iconv -f ISO-8859-15 -t UTF-8 > $@
+	unrtf --text $< | iconv -f ISO-8859-15 -t UTF-8 | tail -n +6 > $@
 
 %.html: %.rtf
 	unrtf --html $< > $@
