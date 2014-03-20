@@ -4,14 +4,17 @@ RTF=$(shell find content -type f -iname '*.rtf')
 PNG=$(PSD:%.psd=%.png)
 JPG=$(PSD:%.psd=%.jpg)
 TXT=$(RTF:%.rtf=%.txt)
+HTML=$(RTF:%.rtf=%.html)
 
-all: png jpg txt
+all: png jpg txt html
 
 png: $(PNG)
 
 jpg: $(JPG)
 
 txt: $(TXT)
+
+html: $(HTML)
 
 %.png: %.psd
 	convert $< -flatten $@
@@ -22,7 +25,10 @@ txt: $(TXT)
 %.txt: %.rtf
 	unrtf --text $< | iconv -f ISO-8859-15 -t UTF-8 > $@
 
-clean:
-	rm -f $(PNG) $(JPG) $(TXT)
+%.html: %.rtf
+	unrtf --html $< > $@
 
-.PHONY: png jpg txt clean
+clean:
+	rm -f $(PNG) $(JPG) $(TXT) $(HTML)
+
+.PHONY: png jpg txt html clean
