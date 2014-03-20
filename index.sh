@@ -6,12 +6,12 @@ snippet() {
   line="$1"
   fname=$(echo $line | cut -d ' ' -f 1)
   fdir=$(echo $fname | cut -c 1-4)
-  fbase=content/${fdir}/${fname}
+  fbase=${fdir}/${fname}
   source=$(eval echo \$$(echo $line | cut -d ' ' -f 2))
   date=$(echo $line | cut -d ' ' -f 3)
   title=$(echo $line | cut -d ' ' -f 4-)
   
-  if [ -f ${fbase}.html ]
+  if [ -f content/${fbase}.rtf ] # has text article
   then
     cat <<-EOF
     <li>

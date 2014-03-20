@@ -6,15 +6,24 @@ JPG=$(PSD:%.psd=%.jpg)
 TXT=$(RTF:%.rtf=%.txt)
 HTML=$(RTF:%.rtf=%.html)
 
-all: png jpg txt html index.html
+DEST_HTML=$(HTML:content/%=dest/%)
+DEST_PNG=$(PNG:content/%=dest/%)
+DEST_JPG=$(JPG:content/%=dest/%)
+DEST_TXT=$(TXT:content/%=dest/%)
 
-png: $(PNG)
+all: png jpg txt html dest/index.html
 
-jpg: $(JPG)
+png: $(DEST_PNG)
 
-txt: $(TXT)
+jpg: $(DEST_JPG)
 
-html: $(HTML)
+txt: $(DEST_TXT)
+
+html: $(DEST_HTML)
+
+dest/%: content/%
+	mkdir -p `dirname $@`
+	install -m 644 $< $@
 
 %.png: %.psd
 	convert $< -flatten $@
@@ -28,7 +37,8 @@ html: $(HTML)
 %.html: %.rtf
 	unrtf --html $< > $@
 
-index.html: index.sh $(HTML) $(PNG)
+dest/index.html: index.sh $(DEST_HTML) $(DEST_PNG)
+	mkdir -p dest/
 	./index.sh > $@
 
 clean:
@@ -36,6 +46,6 @@ clean:
 	rm -f $(JPG)
 	rm -f $(TXT)
 	rm -f $(HTML)
-	rm -f index.html
+	rm -rf dest/
 
 .PHONY: png jpg txt html clean
