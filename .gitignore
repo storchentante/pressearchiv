@@ -1,0 +1,5 @@
+/content/**/*.png
+/content/**/*.jpg
+/content/**/*.txt
+/content/**/*.html
+/dest/
