@@ -1,7 +1,7 @@
 E='Express'
 FR='Frankfurter Rundschau'
 GA='Gießener Anzeiger'
-GAZ='Giessener Allgemeine > <, gesperrter Ort'
+GAZ='Gießener Allgemeine Zeitung'
 GT='Göttinger Tageblatt'
 LE='Leben und Erziehen'
 SM='Sonntagmorgen Magazin'
