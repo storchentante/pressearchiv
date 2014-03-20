@@ -39,6 +39,8 @@ cat <<-EOF
 <title>Entbindungshaus Gießen, Pressearchiv</title>
 </head>
 <body>
+<h1>Pressearchiv des Entbindungshauses Gießen</h1>
+<ul>
 EOF
 
 cat index.txt | while read article
@@ -47,6 +49,7 @@ do
 done
 
 cat <<-EOF
+</ul>
 </body>
 </html>
 EOF
