@@ -1,4 +1,4 @@
-/content/*.png
-/content/*.jpg
-/content/*.txt
-/content/*.html
+/content/**/*.png
+/content/**/*.jpg
+/content/**/*.txt
+/content/**/*.html
