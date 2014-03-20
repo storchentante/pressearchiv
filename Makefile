@@ -14,10 +14,10 @@ jpg: $(JPG)
 txt: $(TXT)
 
 %.png: %.psd
-	convert $< $@
+	convert $< -flatten $@
 
 %.jpg: %.psd
-	convert $< $@
+	convert $< -flatten $@
 
 %.txt: %.rtf
 	unrtf --text $< | iconv -f ISO-8859-15 -t UTF-8 > $@
